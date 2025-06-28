@@ -1,0 +1,69 @@
+#experience-section {
+  background-color: #0a192f;
+  color: #ecf0f1;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.experience-title {
+  font-size: 2rem;
+  color: #f1c40f;
+  margin-bottom: 40px;
+}
+
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 10px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: #001f3f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 188, 212, 0.2);
+  transition: background 0.3s ease;
+}
+
+.experience-item:hover {
+  background: #002a5c;
+}
+
+.exp-icon i {
+  font-size: 1.5rem;
+  color: #00bcd4;
+  background: #002b4d;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.exp-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #00bcd4;
+}
+
+.exp-content h5 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.exp-duration {
+  font-size: 0.85rem;
+  color: #bbb;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.exp-content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
